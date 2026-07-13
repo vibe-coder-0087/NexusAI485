@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  color: #C9D1D9;
+  background: #0D1117;
+}
+
+::selection {
+  background: rgba(94, 234, 212, 0.25);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #242C37;
+  border-radius: 4px;
+}
